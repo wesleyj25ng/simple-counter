@@ -7,7 +7,7 @@ body {
 
 #counter-body {
     padding: 30px 70px;
-    width: 400px;
+    width: 450px;
     margin: 70px auto;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@ body {
 
 #header {
     font-size: 40px;
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 #count-el {
