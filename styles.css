@@ -1,0 +1,47 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: "Bitter", serif;
+}
+
+#counter-body {
+    padding: 30px 70px;
+    width: 400px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-family: inherit;
+    background: white;
+}
+
+#header {
+    font-size: 40px;
+    margin: 20px;
+}
+
+#count-el {
+    font-size: 30px;
+    margin: 30px;
+}
+
+.btn {
+    width: 170px;
+    margin: 15px 15px;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-family: inherit;
+    color: white;
+    background: darkslategray;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+}
+
+#change-btns {
+    display: flex;
+    flex-direction: row-reverse;
+}
